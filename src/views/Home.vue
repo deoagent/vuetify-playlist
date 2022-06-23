@@ -1,7 +1,13 @@
 <template>
   <div>
     <h1>Homepage</h1>
-    <p>https://github.com/iamshaunjp/vuetify-playlist/tree/lesson-2/todo-ninja</p>
+
+    <!-- <v-btn class="hidden-md-and-down">click me</v-btn> -->
+
+    <!-- <v-btn class="hidden-md-and-up">click me</v-btn> -->
+
+    <v-btn class="hidden-sm-only">click me</v-btn>
+
   </div>
 </template>
 
