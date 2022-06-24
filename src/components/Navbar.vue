@@ -22,7 +22,7 @@
                         </v-list-tile>
                     </v-list>
                 </v-menu>
-                
+
             <v-btn flat color="grey">
                 <span>Sign Out</span>
                 <v-icon right>exit_to_app</v-icon>
@@ -38,6 +38,9 @@
                     <p class="white--text subheading mt-1">
                         The Net Ninja
                     </p>
+                </v-flex>
+                <v-flex class="mt-4 mb-3">
+                    <Popup />
                 </v-flex>
             </v-layout>
             <v-list>
@@ -57,7 +60,9 @@
 
 
 <script>
+import Popup from './Popup'
 export default {
+    components: {Popup},
     data() {
         return{
             drawer: false,
