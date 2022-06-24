@@ -58,7 +58,7 @@ export default {
                     content: this.content,
                     due: format(new Date(this.due), 'do MMM yyyy'),
                     person: 'The Net Ninja',
-                    status: 'ongoing'
+                    status: 'ongoing' 
                     
                 }
                 db.collection('projects').add(project).then(() => {
